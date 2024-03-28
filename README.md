@@ -18,7 +18,7 @@ This project retrieves data from a specific URL (https://fetch-hiring.s3.amazona
   - **JSON Parsing**: Utilized Android's built-in JSON parsing capabilities for processing JSON data retrieved from a URL.
 
 ## Build Instructions
-1. Clone the repository locally: `git clone https://github.com/your-username/FetchAndroidAssignment.git`
+1. Clone the repository locally: `git clone https://github.com/your-username/FetchAndroidAssessment.git`
 2. Open the project in Android Studio (or your preferred IDE)
 3. Build the project using the latest tools and SDK versions
 4. Run the app on a compatible Android device or emulator
