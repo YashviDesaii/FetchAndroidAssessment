@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Instructions TextView -->
+    <TextView
+        android:id="@+id/instructionsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on a list Id to see the item names of the list"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:textColor="@android:color/black"/>
+
+    <!-- RecyclerView for listIds -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerIdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:elevation="4dp"/>
+
+    <!-- RecyclerView for items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerItemView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:elevation="4dp"/>
+
+</LinearLayout>
+
