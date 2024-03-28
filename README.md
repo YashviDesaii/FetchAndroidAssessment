@@ -13,9 +13,9 @@ This project retrieves data from a specific URL (https://fetch-hiring.s3.amazona
 ## Technologies Used
 - Programming Language: Kotlin
 - Libraries/Frameworks:
-  - Kotlin Coroutines: Used for asynchronous programming to handle network operations and background tasks efficiently.
-  - RecyclerView: Used for displaying a list of items in a scrollable and efficient manner, along with an adapter for managing the data and view holders.
-  - JSON Parsing: Utilized Android's built-in JSON parsing capabilities for processing JSON data retrieved from a URL.
+  - **Kotlin Coroutines**: Used for asynchronous programming to handle network operations and background tasks efficiently.
+  - **RecyclerView**: Used for displaying a list of items in a scrollable and efficient manner, along with an adapter for managing the data and view holders.
+  - **JSON Parsing**: Utilized Android's built-in JSON parsing capabilities for processing JSON data retrieved from a URL.
 
 ## Build Instructions
 1. Clone the repository locally: `git clone https://github.com/your-username/FetchAndroidAssignment.git`
